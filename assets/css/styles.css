@@ -31,3 +31,9 @@ body{
 .activator {
   height: 170px;
 }
+
+.email{
+  font-weight: 300;
+  border-radius: 10px;
+  color: white;
+}
