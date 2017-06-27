@@ -41,3 +41,10 @@ body{
 .fa-twitter{
   margin-right: 40px;
 }
+li {
+  font-size: 1.3em;
+}
+
+.card{
+  font-size: 2em;
+}
