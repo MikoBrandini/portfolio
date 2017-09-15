@@ -4,3 +4,6 @@ $(document).ready(function(){ $(".button-collapse").sideNav(); })
       $('.parallax').parallax();
     });
 
+$( window ).resize(function() {
+  if($(window).width() <=1000) $('img').addClass("responsive-img");
+});
