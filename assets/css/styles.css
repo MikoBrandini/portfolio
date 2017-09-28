@@ -1,13 +1,21 @@
+
 body{
-  min-height: 200vh;
   font-family: 'Lustria', serif;
     margin: 0;
     padding: 0;
     text-align: justify;
 }
 
-.brand-logo{
-  padding-left: 10px;
+nav .nav-wrapper{
+  background: transparent;
+}
+
+ .introDescription {
+      height: 100%  ;
+    }
+
+img.activator{
+  height: 100%;
 }
 
 .thin-text {
@@ -21,25 +29,13 @@ body{
   font-weight: 300;
 }
 
-.cta{
-  font-weight: 300;
-  text-shadow: 1px 1px black;
-}
 
-.contact-form {
-  padding-top: 40px;
-}
 
-.activator {
-  height: 170px;
-}
+
 
 .email{
   font-weight: 300;
-  border-radius: 10px;
   color: white;
 }
 
-.fa-twitter{
-  margin-right: 40px;
-}
+
