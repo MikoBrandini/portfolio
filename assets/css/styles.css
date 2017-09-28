@@ -1,11 +1,14 @@
 body{
   min-height: 200vh;
   font-family: 'Lustria', serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
 }
 
-.logo{
-  font-weight: 300;
+.brand-logo{
   padding-left: 10px;
+  margin-top: 30vh;
 }
 
 .thin-text {
