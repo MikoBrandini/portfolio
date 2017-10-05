@@ -19,6 +19,21 @@ img.activator{
   height: 100%;
 }
 
+.portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+
+}
+.portfolio > .col{
+height: 100%;
+}
+.card{
+}
+.btn-large{
+
+}
 .thin-text {
   font-weight: 300;
   background: rgba(96, 125, 139, .4);
