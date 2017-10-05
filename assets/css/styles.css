@@ -15,10 +15,20 @@ nav .nav-wrapper{
       height: 100%  ;
     }
 
-img.activator{
-  height: 100%;
+.surviveZombieTropes{
+  width: 100%;
 }
 
+.col{
+  height: 100%;
+  width: 100%;
+}
+.btn-large{
+  bottom: 0px;
+  position: relative;
+}
+
+@media screen and (min-width: 765px){
 .portfolio{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -26,14 +36,9 @@ img.activator{
   grid-gap: 1em;
 
 }
-.portfolio > .col{
-height: 100%;
 }
-.card{
-}
-.btn-large{
 
-}
+
 .thin-text {
   font-weight: 300;
   background: rgba(96, 125, 139, .4);
