@@ -30,13 +30,13 @@ img.activator{
   font-weight: 300;
 }
 
-
-
-
-
 .email{
   font-weight: 300;
   color: white;
 }
 
+.introDescription {
+  display: none;
+  background: red;
+}
 

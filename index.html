@@ -9,6 +9,9 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="assets/css/styles.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin=" anonymous "></script>
+
+
    </head>
    <body>
       <div class="navbar-fixed">
@@ -33,10 +36,36 @@
          </div>
       </div>
       <!--   Portfolio -->
-      <div class="container" id="projects ">
+      <div class="container">
          <ul class="collection container center">
             <h2 class="section-header">Portfolio</h2>
-            <div class="row ">
+            <div class="row "> <!-- i contain all the projects -->
+               <div class="col collection-item">
+                  <div class="card ">
+                     <div class="card-image waves-effect waves-block waves-light ">
+                        <img class="activator " src="assets\img\zombies.png ">
+                     </div>
+                     <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4 ">
+                           Surviving Zombie Tropes<i class="material-icons right fa fa-expand "></i>
+                           <h6>Made with ReactJS. Chooose Your Own Adventure. </h6>
+                        </span>
+                        <p>
+                           <a  class="blue-grey darken-4 btn-large " href="https://mikobrandini.github.io/surviving_zombie_tropes/" target="_blank ">Mobile Project</a>
+                        </p>
+                     </div>
+                     <div class="card-reveal flow-text">
+                        <span class="card-title grey-text text-darken-4 ">Experience classic zombie cliches.<i class="material-icons right fa fa-compress "></i></span>
+                        <p>List of Technologies used:</p>
+                        <ul>
+                           <li>-JavaScript</li>
+                           <li>-ReactJS</li>
+                           <li>-Custom CSS</li>
+                           <li>-Bootstrap</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
                <div class="col collection-item">
                   <div class="card ">
                      <div class="card-image waves-effect waves-block waves-light ">
@@ -123,8 +152,10 @@
                </div>
             </div>
          </ul>
-      </div>
+      </div> <!-- here ends the portfolio -->
       <div class="container ">
+       <!--  this is in a container div because I like
+        the autoatic width given by materialize.  -->
          <div class="divider "></div>
       </div>
 
